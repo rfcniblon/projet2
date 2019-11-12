@@ -1,0 +1,90 @@
+/*  police ecriture zodiac */
+@font-face {
+    font-family: 'ZodiacMix';
+    font-style: normal;
+    /* font-weight: 400; */
+    src: url('ZodiacMix.otf'), url('ZodiacMix.otf'),
+      url(ZodiacMix.otf) format('truetype');
+  }
+
+  /* constellation ne fonctionne pas pour le moment ... */
+  @font-face {
+    font-family: 'ConstellationsOstia';
+    font-style: normal;
+    /* font-weight: 100; */
+    src: url('ConstellationsOstia.ttf'), url('ConstellationsOstia.ttf'),
+      url(ConstellationsOstia.ttf) format('truetype');
+  }
+  /* fin police ecriture */
+  /* Police ecriture signe du zodiac */
+  .signe-zodiac{
+    font-family:'ZodiacMix' ;
+    font-size: 80px;;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    margin-left: 180px;
+  }
+  .constellations{
+    font-family:'ConstellationsOstia' ;
+    font-size: 80px;;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    margin-left: 180px;
+  }
+  /* 
+  span{
+  font-family: 'Constellations Ostia' ;
+  font-size: 80px;
+  }*/
+
+
+
+
+
+  /* Titre du site web*/
+  @font-face {
+    font-family: '13_Misa';
+    font-style: normal;
+    src: url('13_Misa.TTF'), url('13_Misa.TTF'),
+      url(13_Misa.TTF) format('truetype');
+  }
+  .titre_website{
+    padding-top: 15px;
+    padding-left: 10px;
+    font-family:'13_Misa' ;
+    font-size: 60px;;
+    height: 100px;
+    width: 350px;
+    margin: 0;
+  }
+
+  /*  Menu link */
+  @font-face {
+    font-family: 'HyperHelix-nRR2V';
+    src: url('HyperHelix-nRR2V.ttf'), url('HyperHelix-nRR2V.ttf'),
+      url(HyperHelix-nRR2V.ttf) format('truetype');
+  }
+  .menu_link{
+    font-family:'HyperHelix-nRR2V' ;  
+  }
+    /*  Titre article */
+    @font-face {
+      font-family: 'HyperHelix-nRR2V';
+      src: url('HyperHelix-nRR2V.ttf'), url('HyperHelix-nRR2V.ttf'),
+        url(HyperHelix-nRR2V.ttf) format('truetype');
+    }
+  .titre_article{
+      font-family:'HyperHelix-nRR2V' ;  
+    }
+      /*  texte  */
+  @font-face {
+    font-family: 'MinalisDemo-o73B';
+    src: url('MinalisDemo-o73B.ttf'), url('MinalisDemo-o73B.ttf'),
+      url(MinalisDemo-o73B.ttf) format('truetype');
+  }
+  .text_article{
+    font-family:'MinalisDemo-o73B' ;  
+  }
+  

@@ -1,0 +1,180 @@
+* {
+    text-align: center;
+}
+
+.contactForm {
+    background-color: transparent;
+    color: #72cdfa;
+    text-align: center;
+    padding: 10px;
+}
+
+::placeholder {
+    color: #72cdfa;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+select {
+    background-color:rgba(102, 102, 102, 0.7);
+    color: #72cdfa;
+    border-bottom: 2px solid #72cdfa;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+textarea {
+    background-color:rgba(102, 102, 102, 0.7);
+    color: #72cdfa;
+    border-bottom: 2px solid #72cdfa;
+    border-top: 2px solid #72cdfa;
+    border-left: 2px solid #72cdfa;
+    border-right: 2px solid #72cdfa;
+    width: 100%;
+    margin: auto;
+}
+
+.contactSubmit {
+    align-items: center;
+}
+
+.contactSubject {
+    align-items: center;
+}
+
+.labelForm {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.contactName input {
+    background-color:rgba(102, 102, 102, 0.7);
+    color: #72cdfa;
+    border-bottom: 2px solid #72cdfa;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: auto;
+}
+
+.contactEmail input {
+    background-color:rgba(102, 102, 102, 0.7);
+    color: #72cdfa;
+    border-bottom: 2px solid #72cdfa;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: auto;
+}
+
+.contactSubmit input {
+    background-color:rgba(102, 102, 102, 0.7);
+    color: #72cdfa;
+    border-bottom: 2px solid #72cdfa;
+    border-top: 2px solid #72cdfa;
+    border-left: 2px solid #72cdfa;
+    border-right: 2px solid #72cdfa;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+label i {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+select {
+    border-bottom: 2px solid #72cdfa;
+    border-top: 2px solid #72cdfa;
+    border-left: 2px solid #72cdfa;
+    border-right: 2px solid #72cdfa;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: auto;
+    text-align-last: center;
+}
+
+input:focus{
+    outline: transparent;
+}
+
+textarea:focus{
+    outline: transparent;
+}
+
+
+
+@media screen and (min-width:1024px) {
+    .dsk-0{display: none;}
+    .dsk-1{width: 8.33%;}
+    .dsk-2{width: 16.66%;}
+    .dsk-3{width: 25%;}
+    .dsk-4{width: 33.33%;}
+    .dsk-5{width: 41.66%;}
+    .dsk-6{width: 50%;}
+    .dsk-7{width: 58.33%;}
+    .dsk-8{width: 66.66%;}
+    .dsk-9{width: 75%;}
+    .dsk-10{width: 83.33%;}
+    .dsk-11{width: 91.66%;}
+    .dsk-12{width: 100%;}
+    
+    .row {
+        display: flex;
+        flex-direction: row;                                    
+    } 
+    
+}
+
+/* Classe contenues dans cette media query ne seront appliquées 
+*  qu'a condition que la largeur de l'ecran soit comprise entre 501px et 1023px inclus
+**/
+@media screen and (min-width:401px) and (max-width:1023px) {
+    .tab-0{display: none;}
+    .tab-1{width: 8.33%;}
+    .tab-2{width: 16.66%;}
+    .tab-3{width: 25%;}
+    .tab-4{width: 33.33%;}
+    .tab-5{width: 41.66%;}
+    .tab-6{width: 50%;}
+    .tab-7{width: 58.33%;}
+    .tab-8{width: 66.66%;}
+    .tab-9{width: 75%;}
+    .tab-10{width: 83.33%;}
+    .tab-11{width: 91.66%;}
+    .tab-12{width: 100%;}
+
+    
+}
+​
+/* Classe contenues dans cette media query ne seront appliquées 
+ qu'a condition que la largeur de l'ecran ne depasse pas 500px
+*/
+
+@media screen and (max-width:400px) {
+    .mob-0{display: none;}
+    .mob-1{width: 8.33%;}
+    .mob-2{width: 16.66%;}
+    .mob-3{width: 25%;}
+    .mob-4{width: 33.33%;}
+    .mob-5{width: 41.66%;}
+    .mob-6{width: 50%;}
+    .mob-7{width: 58.33%;}
+    .mob-8{width: 66.66%;}
+    .mob-9{width: 75%;}
+    .mob-10{width: 83.33%;}
+    .mob-11{width: 91.66%;}
+    .mob-12{width: 100%;}
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    
+}

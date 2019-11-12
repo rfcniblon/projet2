@@ -1,0 +1,56 @@
+.FindYourSign {
+    background-color: transparent;
+}
+
+.Day {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.Day label {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* ajout  marfgin-top */
+    margin-top: 2rem;
+    font-size: 2rem;
+    color:#72cdfa;
+}
+
+.Day input {
+    background-color:rgba(102, 102, 102, 0.7);
+    color: #72cdfa;
+    border-bottom: 2px solid #72cdfa;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: auto;
+    /* margin-top: 10px; */
+    /* ajout de 31 a 34 */
+    height: 50px;
+    width: 350px;
+    font-size: 1.8rem;
+    margin-top: 60px; 
+}
+
+.Submit {
+    padding-bottom: 10px;
+}
+
+/* augmentation taille du bouton send de 52 a 55*/
+.Submit button {
+    background-color:rgba(102, 102, 102, 0.7);
+    color: #72cdfa;
+    border-bottom: 2px solid #72cdfa;
+    border-top: 2px solid #72cdfa;
+    border-left: 2px solid #72cdfa;
+    border-right: 2px solid #72cdfa;
+    margin: auto;
+    border-radius: 30px;
+    /* ajout */
+    height: 50px;
+    width: 250px;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}

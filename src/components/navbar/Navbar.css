@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+
+.row{
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.classnul{
+  box-shadow:none;
+}
+
+
+/* Classe contenues dans cette media query Offset
+  **/
+
+  @media screen and (min-width:400px) and (max-width:1023px){
+    .offset-0{display: none;}
+    .offset-1{width: 8.33%;}
+    .offset-2{width: 16.66%;}
+    .offset-3{width: 25%;}
+    .offset-4{width: 33.33%;}
+    .offset-5{width: 41.66%;}
+    .offset-6{width: 50%;}
+    .offset-7{width: 58.33%;}
+    .offset-8{width: 66.66%;}
+    .offset-9{width: 75%;}
+    .offset-10{width: 83.33%;}
+    .offset-11{width: 91.66%;}
+    .offset-12{width: 100%;}
+  
+  }
+
+  /* Classe contenues dans cette media query ne seront appliquées 
+  *  qu'a condition que la largeur de l'ecran soitplus grande que 1023px inclus
+  **/
+  @media screen and (min-width:1023px) {
+    .dsk-0{display: none;}
+    .dsk-1{width: 8.33%;}
+    .dsk-2{width: 16.66%;}
+    .dsk-3{width: 25%;}
+    .dsk-4{width: 33.33%;}
+    .dsk-5{width: 41.66%;}
+    .dsk-6{width: 50%;}
+    .dsk-7{width: 58.33%;}
+    .dsk-8{width: 66.66%;}
+    .dsk-9{width: 75%;}
+    .dsk-10{width: 83.33%;}
+    .dsk-11{width: 91.66%;}
+    .dsk-12{width: 100%;}
+
+    .name_website{
+    margin-left: 1rem;  
+    color:#72cdfa;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    }
+
+    .Menu {
+      display: flex;
+      flex-direction: row;
+      height: 15px;
+      z-index: 99;
+    } 
+  .test a{
+    text-decoration: none; 
+    margin-left: -6px;
+    color: #72cdfa ;  
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'MinalisDemo-o73B';
+    font-size: 1.2rem;
+  }
+
+  .user_test{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    height: 50px;
+  }
+    /* div logo user */
+    .nav_info_user{
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+    } 
+    /* logo user */
+    .logo_user{
+      display: flex;
+      flex-direction: column;
+      height: 4rem; 
+      width: 4rem; 
+    } 
+    /* div Search */
+    .nav_search{
+    margin-top:-3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    }
+    .nav_button{
+     border-radius: 10px;
+     width: 6rem;
+     height: 2rem;
+     margin-left: 0.5rem;
+     margin-right: 2rem;
+     color: #72cdfa ;  
+   background-color: transparent;
+    }
+    .nav_input{
+     border-radius: 10px;
+     height: 2rem;
+     width: 14rem;
+     color: #72cdfa ;  
+     background-color: transparent;
+    } 
+
+  } 
+  
+   /* Classe contenues dans cette media query ne seront appliquées 
+  *  qu'a condition que la largeur de l'ecran soit comprise entre 501px et 1023px inclus
+  **/
+   @media screen and (min-width:400px) and (max-width:1023px){
+      .tab-0{display: none;}
+      .tab-1{width: 8.33%;}
+      .tab-2{width: 16.66%;}
+      .tab-3{width: 25%;}
+      .tab-4{width: 33.33%;}
+      .tab-5{width: 41.66%;}
+      .tab-6{width: 50%;}
+      .tab-7{width: 58.33%;}
+      .tab-8{width: 66.66%;}
+      .tab-9{width: 75%;}
+      .tab-10{width: 83.33%;}
+      .tab-11{width: 91.66%;}
+      .tab-12{width: 100%;}
+  
+      .menu{
+        width: 150px;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+      }
+      .name_website{
+        margin-left: 1rem;  
+        margin-top: 1rem;
+        display: flex;
+        justify-content: flex-start;
+        }
+      .nav_info_user{
+        /* background-color: violet; */
+        display: flex;
+        flex-direction: row;
+        width: 10%;
+      }
+      .logo_user{
+        margin-left: 90px;
+        margin-top: 20px;
+        height: 30px;
+        width: 30px;
+      }
+      .pseudo_user{
+        margin-left: 10px;
+        padding-bottom: 15px;
+      }
+      /* div Search */
+      .nav_search{
+          /* background-color: red; */
+          margin-top: -470px;
+          display: flex;
+          justify-content: flex-end; 
+          /* width: 600px; */
+          height: 35px;
+      }
+      .nav_button{
+          border-radius:10px;
+          width: 65px;
+          height: 25px;
+      }
+      .nav_input{
+          border-radius: 10px;
+          height: 25px;
+          width: 25%;
+          /* margin-right: 10px; */
+          /* background-color: blue; */
+      } 
+      .logo {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 20px;
+      }
+    .test{
+     height: 30px;
+     width: 30px;
+    }
+
+  }
+
+  /* Classe contenues dans cette media query ne seront appliquées 
+  *  qu'a condition que la largeur de l'ecran ne depasse pas 500px
+  **/
+  @media screen and (max-width:400px){
+    .mob-0{display: none;}
+    .mob-1{width: 8.33%;}
+    .mob-2{width: 16.66%;}
+    .mob-3{width: 25%;}
+    .mob-4{width: 33.33%;}
+    .mob-5{width: 41.66%;}
+    .mob-6{width: 50%;}
+    .mob-7{width: 58.33%;}
+    .mob-8{width: 66.66%;}
+    .mob-9{width: 75%;}
+    .mob-10{width: 83.33%;}
+    .mob-11{width: 91.66%;}
+    .mob-12{width: 100%;}
+  
+
+.name_website{
+      margin-left: 1rem;  
+      /* color: red; */
+      font-size: 1.5rem;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: flex-start;
+}
+.nav_logo_website{
+      display: flex;
+}
+.nav_info_user{
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+} 
+.logo_user{
+  margin-left: 9px; 
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+}
+.pseudo_user{
+  /* margin-left: 10px; */
+  padding-bottom: 15px;
+}
+/* div Search */
+.nav_search{
+    background-color:transparent;
+    display: flex;
+    justify-content: flex-end;
+    width: 590px;
+    height: 30px;
+    margin-top: -50px;
+}
+.nav_button{
+    border-radius:10px;
+    width: 65px;
+    height: 25px;
+}
+.nav_input{
+  margin-left: 100px;
+    border-radius: 10px;
+    height: 25px;
+    width: 140px;
+    margin-right: 10px;
+}
+
+  }

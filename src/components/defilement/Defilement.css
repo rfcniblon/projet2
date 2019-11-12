@@ -1,0 +1,61 @@
+.marquee {
+    /* border:5px ridge grey; */
+    height: 50px;
+    width: 100px; /*mini=moitié longueur du texte*/
+    overflow: hidden;
+    position: relative;
+}
+.defilement_signe {
+    /* border:5px ridge grey; */
+    height: 90px;
+    width: 1200px; /*mini=moitié longueur du texte*/
+    font-family: "Constellations Ostia", Times, serif;  
+    font-size: 67px;
+    /* opacity: 0.7; */
+   /* text-align: center; */
+    color: black;
+    overflow: hidden;
+    position: relative;
+}
+.defilement_signe span {
+    width: 100%;
+    position: absolute;
+    -webkit-animation: marquee 28s linear infinite;
+    -moz-animation: marquee 28s linear infinite;
+    -ms-animation: marquee 28s linear infinite;
+    -o-animation: marquee 28s linear infinite;
+    animation: marquee 28s linear infinite;
+}
+.marquee span {
+        width: 100%;
+        position: absolute;
+        -webkit-animation: marquee 8s linear infinite;
+        -moz-animation: marquee 8s linear infinite;
+        -ms-animation: marquee 8s linear infinite;
+        -o-animation: marquee 8s linear infinite;
+        animation: marquee 8s linear infinite;
+    }
+@-webkit-keyframes marquee {
+    0% { left: 100%; }
+    100% {left: -100%; }
+}
+@-moz-keyframes marquee {
+    0% { left: 100%; }
+    100% {left: -100%; }
+}
+@keyframes marquee {
+    0% { left: 100%; }
+    100% {left: -100%; }
+}
+@-webkit-keyframes defilement_signe {
+    0% { left: 100%; }
+    100% {left: -100%; }
+}
+@-moz-keyframes  defilement_signe{
+    0% { left: 100%; }
+    100% {left: -100%; }
+}
+@keyframes defilement_signe {
+    0% { left: 100%; }
+    100% {left: -100%; }
+}
